@@ -48,8 +48,6 @@ C:\Fuentes\Net\CoreApiFundamentals-3.1\bin\Debug\netcoreapp3.1\runtimes\win-x64\
 C:\Fuentes\Net\CoreApiFundamentals-3.1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.AssemblyInfoInputs.cache
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.AssemblyInfo.cs
-C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.csproj.CoreCompileInputs.cache
-C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.MvcApplicationPartsAssemblyInfo.cache
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.RazorTargetAssemblyInfo.cache
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.csproj.CopyComplete
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\staticwebassets\CoreCodeCamp.StaticWebAssets.Manifest.cache
@@ -57,3 +55,8 @@ C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\staticwebassets\C
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.dll
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.pdb
 C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.genruntimeconfig.cache
+C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.csprojAssemblyReference.cache
+C:\Fuentes\Net\CoreApiFundamentals-3.1\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Fuentes\Net\CoreApiFundamentals-3.1\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.csproj.CoreCompileInputs.cache
+C:\Fuentes\Net\CoreApiFundamentals-3.1\obj\Debug\netcoreapp3.1\CoreCodeCamp.MvcApplicationPartsAssemblyInfo.cache
