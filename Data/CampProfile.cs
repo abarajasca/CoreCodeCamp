@@ -20,9 +20,8 @@ namespace CoreCodeCamp.Data
                 .ForMember(d => d.CityTown, o => o.MapFrom(m => m.Location.CityTown))
                 .ForMember(d => d.StateProvince, o => o.MapFrom(m => m.Location.StateProvince))
                 .ForMember(d => d.PostalCode, o => o.MapFrom(m => m.Location.PostalCode))
-                .ForMember(d => d.Country, o => o.MapFrom(m => m.Location.Country));
-                
-            
+                .ForMember(d => d.Country, o => o.MapFrom(m => m.Location.Country))
+                .ReverseMap();
         }
     }
 }
