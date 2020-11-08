@@ -75,7 +75,7 @@ namespace CoreCodeCamp.Controllers
         public async Task<ActionResult<CampModel>> Post(CampModel model) {
             try
             {
-                if (_campRepository.GetCampAsync(model.Moniker) != null)
+                if (await _campRepository.GetCampAsync(model.Moniker) != null)
                 {
                     return BadRequest("Moniker Already exists.");
                 }
