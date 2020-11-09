@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9Mxot5MvOVbCFmpZTR6fr98JNVEL+KLltAfaiRPrZut89lSfafUXPfqlJWtILn3KV4o/+jMQWhuR9JBJmuAYow==",
+  "dgSpecHash": "GLNcrrmgIwVwsTxR7F4gDcTfo6fO32uRwAPWaHWCzZ27JrfM2GE56N7d4OP80RrO/d35lDVvtpjhgB1HZGw2dQ==",
   "success": true,
   "projectFilePath": "C:\\Fuentes\\Net\\CoreApiFundamentals-3.1\\CoreCodeCamp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abc\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Abc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\Abc\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.2.0\\microsoft.aspnetcore.mvc.versioning.4.2.0.nupkg.sha512",
     "C:\\Users\\Abc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Abc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Abc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

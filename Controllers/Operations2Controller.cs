@@ -9,57 +9,39 @@ using System.Threading.Tasks;
 namespace CoreCodeCamp.Controllers
 {
     [ApiController]
-    [Route("api/v{version:ApiVersion}/[controller]")]
-    [ApiVersion("1.0")]
-    [ApiVersion("1.1")]
-    public class OperationsController: ControllerBase
+    [Route("api/v{version:ApiVersion}/operations")]
+    [ApiVersion("2.0")]
+    public class Operations2Controller: ControllerBase
     {
         private IConfiguration _config;
 
-        public OperationsController(IConfiguration config)
+        public Operations2Controller(IConfiguration config)
         {
             _config = config;
 
         }
         
         [HttpOptions("reloadconfig")]
-        [ApiVersion("1.0")]
         public IActionResult ReloadConfig()
         {
             try
             {
                 var root = (IConfigurationRoot)_config;
                 root.Reload();
-                return Ok("api Version 1.0");
+                return Ok("api Version 2.0");
             }
             catch (Exception)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Database failure");
             }
         }
-
-        [HttpOptions("reloadconfig")]
-        [ApiVersion("1.1")]
-        public IActionResult ReloadConfig11()
-        {
-            try
-            {
-                var root = (IConfigurationRoot)_config;
-                root.Reload();
-                return Ok("api Version 1.1");
-            }
-            catch (Exception)
-            {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Database failure");
-            }
-        }
-
+        
         [HttpOptions("memory")]
         public IActionResult ShowMemory()
         {
             try
             {                
-                return Ok("200 MB");
+                return Ok("200 MB Version 2");
             }
             catch (Exception)
             {
